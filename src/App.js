@@ -16,6 +16,7 @@ import {setCurrentUser} from './redux/user/user.actions.js';
 import {selectCurrentUser} from './redux/user/user.selectors.js';
 
 
+
 class App extends React.Component {
 
 
@@ -36,6 +37,7 @@ const {setCurrentUser} = this.props;
       });
     }
     setCurrentUser(userAuth);
+    
   });
 }
 
