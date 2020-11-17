@@ -6,7 +6,7 @@ import Directory from '../../components/directory/directory.component';
 
 import {HomePageContainer} from './homepage.styles.jsx';
 
-const HomePage = () =>(
+const HomePage = () => (
 	<HomePageContainer>
 		<Directory />
 	</HomePageContainer>	
